@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  PerAppSampleApp-iOS
+
+  Created by Piyush Rathi on 16/05/23.
+  
+*/
+
+"AppSelectionLable"     = "Idioma de la aplicación seleccionada : ";
+"ProfileScreenBtn"      = "Pantalla de perfil";
+
+"ChangeLangageLabel" = "Cambiar idioma";
+"ProfileLable" = "Perfil";
