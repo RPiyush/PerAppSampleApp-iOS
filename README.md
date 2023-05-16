@@ -1,6 +1,6 @@
 # PerAppSampleApp-iOS
 
-![badge-pod] ![badge-languages] ![badge-platforms] ![badge-mit]
+![badge-languages] ![badge-platforms] ![badge-mit]
 
 This sample app based on PerApp language feature provided by Apple for iOS 13 and above.
 
@@ -10,6 +10,5 @@ This sample app based on PerApp language feature provided by Apple for iOS 13 an
 
 
 [badge-platforms]: https://img.shields.io/badge/platforms-iOS-lightgrey.svg
-[badge-pod]: https://img.shields.io/cocoapods/v/JDragonHUD.svg?label=version
-[badge-languages]: https://www.svgrepo.com/show/376351/swift.svg
+[badge-languages]: https://img.shields.io/badge/languages-ObjC-orange.svg
 [badge-mit]: https://img.shields.io/badge/license-MIT-blue.svg
