@@ -1,4 +1,7 @@
 # PerAppSampleApp-iOS
+
+![badge-pod] ![badge-languages] ![badge-platforms] ![badge-mit]
+
 This sample app based on PerApp language feature provided by Apple for iOS 13 and above.
 
 ## DemoVideo
