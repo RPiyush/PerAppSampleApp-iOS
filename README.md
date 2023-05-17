@@ -16,7 +16,7 @@ After changing app language from App Settings, app will relaunch and it preserve
 
 ## DemoVideo
 
-<img src="https://github.com/RPiyush/PerAppSampleApp-iOS/assets/5211430/db08bdf1-c4b2-4449-8904-5fb0ec30a4b2" width="300" height="650">
+<img src="https://github.com/RPiyush/PerAppSampleApp-iOS/assets/5211430/c720345a-f17d-4c8b-b116-c41d88ed9109" width="300" height="650">
 
 
 [badge-platforms]: https://img.shields.io/badge/platforms-iOS-lightgrey.svg
