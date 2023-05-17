@@ -2,7 +2,12 @@
 
 ![badge-languages] ![badge-platforms] ![badge-mit] ![badge-OS]
 
-This sample app based on PerApp language feature provided by Apple for iOS 13 and above.
+This sample app based on PerApp language feature provided by Apple for iOS 13 and above. This also contains state restoration feature.
+After changing app language from App Settings, app will relaunch and it preserves previous UI state. 
+
+**State Restoration
+- This is added in interface builder. In view controller's indentity inspector restoration identifier added same name as VC. 
+
 
 ## DemoVideo
 
