@@ -10,13 +10,16 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var textLabel: UILabel!
-    @IBOutlet weak var appSettingsButton: UIButton!
+    @IBOutlet weak var btn1: UIButton!
+    @IBOutlet weak var btn2: UIButton!
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         textLabel.text = "AppSelectionLable".localizeString() + getAppLanguage()
-        appSettingsButton.titleLabel?.text = "ProfileScreenBtn".localizeString()
+        btn1?.setTitle("ProfileScreenBtn".localizeString(), for: .normal)
+        btn2?.setTitle("ProfileScreenProgram".localizeString(), for: .normal)
     }
 
     @IBAction func onAppSettingsButtonAction(_ sender: Any) {
@@ -24,6 +27,12 @@ class ViewController: UIViewController {
         let vc = storyboard.instantiateViewController(withIdentifier: "SecondViewController")
         self.navigationController?.pushViewController(vc, animated: true)
     }
+
+    @IBAction func onloadProgramaticallyAction(_ sender: Any) {
+        let vc = ProfileSettingsVC()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+
 
     private func getAppLanguage() -> String {
         let appLang = NSLocale.preferredLanguages.first ?? "en"
@@ -42,7 +51,7 @@ extension String {
         let bundle = Bundle(path: path!)
         return NSLocalizedString(self, tableName: nil, bundle: bundle!, value: "", comment: "")
     }
-    
+
     var langCode: String {
         NSLocale.preferredLanguages.first ?? "en"
     }

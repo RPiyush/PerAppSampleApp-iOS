@@ -17,6 +17,7 @@
 		DC0E64802A13F46D005F15C0 /* PerAppSampleApp_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E647F2A13F46D005F15C0 /* PerAppSampleApp_iOSUITestsLaunchTests.swift */; };
 		DCCF58782A13F7B200601806 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCF58772A13F7B200601806 /* SecondViewController.swift */; };
 		DCCF587B2A13FBB300601806 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCCF587D2A13FBB300601806 /* Localizable.strings */; };
+		DCCF58802A155DA400601806 /* ProfileSettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCF587F2A155DA400601806 /* ProfileSettingsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		DCCF58772A13F7B200601806 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		DCCF587C2A13FBB300601806 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DCCF587E2A13FBC400601806 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DCCF587F2A155DA400601806 /* ProfileSettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				DC0E645C2A13F46C005F15C0 /* AppDelegate.swift */,
 				DC0E64602A13F46C005F15C0 /* ViewController.swift */,
 				DCCF58772A13F7B200601806 /* SecondViewController.swift */,
+				DCCF587F2A155DA400601806 /* ProfileSettingsVC.swift */,
 				DC0E64622A13F46C005F15C0 /* Main.storyboard */,
 				DC0E64652A13F46D005F15C0 /* Assets.xcassets */,
 				DC0E64672A13F46D005F15C0 /* LaunchScreen.storyboard */,
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCCF58782A13F7B200601806 /* SecondViewController.swift in Sources */,
+				DCCF58802A155DA400601806 /* ProfileSettingsVC.swift in Sources */,
 				DC0E64612A13F46C005F15C0 /* ViewController.swift in Sources */,
 				DC0E645D2A13F46C005F15C0 /* AppDelegate.swift in Sources */,
 			);

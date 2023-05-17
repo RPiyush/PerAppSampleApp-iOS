@@ -6,7 +6,12 @@ This sample app based on PerApp language feature provided by Apple for iOS 13 an
 After changing app language from App Settings, app will relaunch and it preserves previous UI state. 
 
 **State Restoration**
-- This is added in interface builder. In view controller's indentity inspector restoration identifier added same name as VC. 
+- Storyboard: This is added in interface builder. In view controller's indentity inspector restoration identifier added same name as VC. 
+- Programmatically: 
+    1. Restoration Identifier: While creating VC programmatically, the restoration identifier should be given manually either while creating instance or in viewDidLoad life cycle method. 
+    2. Restoration Class: We need to provide restoration class.
+    3. UIViewControllerRestoration: ViewController should implement 'UIViewControllerRestoration' method.
+    For all the deatils see 'ProfileSettingsVC' class.
 
 
 ## DemoVideo

@@ -7,7 +7,9 @@
 */
 
 "AppSelectionLable"     = "Selected App Language : ";
-"ProfileScreenBtn"      = "Profile Screen";
+"ProfileScreenBtn"      = "Profile Screen Storyboard";
+"ProfileScreenProgram"  = "Profile Screen Programmatically";
+
 
 "ChangeLangageLabel"    = "Change Language";
 "ProfileLable"          = "Profile";

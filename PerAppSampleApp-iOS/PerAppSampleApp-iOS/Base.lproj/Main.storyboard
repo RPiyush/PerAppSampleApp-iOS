@@ -33,21 +33,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rfu-pa-dEa">
-                                <rect key="frame" x="131.33333333333331" y="408.66666666666669" width="130.33333333333331" height="35"/>
-                                <color key="backgroundColor" systemColor="linkColor"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Profile Screen"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="2"/>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="onAppSettingsButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fZ2-Ky-xSz"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selected App Language : English" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Scv-9p-Zqh">
-                                <rect key="frame" x="62.666666666666657" y="366.66666666666669" width="267.66666666666674" height="20"/>
+                                <rect key="frame" x="62.666666666666657" y="374" width="267.66666666666674" height="20"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -58,21 +45,50 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mi4-DT-4Xh">
+                                <rect key="frame" x="184.66666666666666" y="463" width="24" height="14"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="2"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onloadProgramaticallyAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MNf-Wf-wf2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oaC-8S-Zqv">
+                                <rect key="frame" x="184.66666666666666" y="419" width="24" height="14"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="2"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onAppSettingsButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t7f-FU-HeZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="rfu-pa-dEa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="b4I-Yy-DWE"/>
+                            <constraint firstItem="oaC-8S-Zqv" firstAttribute="top" secondItem="Scv-9p-Zqh" secondAttribute="bottom" constant="25" id="2xu-TI-b4S"/>
+                            <constraint firstItem="oaC-8S-Zqv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Dc0-ao-pNX"/>
                             <constraint firstItem="Ugy-F7-a7K" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="bdc-Jt-bOv"/>
-                            <constraint firstItem="rfu-pa-dEa" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cE9-Hc-CfP"/>
-                            <constraint firstItem="rfu-pa-dEa" firstAttribute="top" secondItem="Scv-9p-Zqh" secondAttribute="bottom" constant="21.670000000000002" id="k2a-OM-zCw"/>
+                            <constraint firstItem="Mi4-DT-4Xh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gc9-Bw-GCF"/>
+                            <constraint firstItem="oaC-8S-Zqv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qKQ-J4-0p5"/>
+                            <constraint firstItem="Mi4-DT-4Xh" firstAttribute="top" secondItem="oaC-8S-Zqv" secondAttribute="bottom" constant="30" id="tLG-xb-UNM"/>
                             <constraint firstItem="Scv-9p-Zqh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uaP-RM-ddQ"/>
                             <constraint firstItem="Ugy-F7-a7K" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="x9E-QB-kpI"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="0g3-Cs-WrG"/>
                     <connections>
-                        <outlet property="appSettingsButton" destination="rfu-pa-dEa" id="wGe-6T-EFP"/>
+                        <outlet property="btn1" destination="oaC-8S-Zqv" id="P8z-54-z4I"/>
+                        <outlet property="btn2" destination="Mi4-DT-4Xh" id="dqq-S8-agL"/>
                         <outlet property="textLabel" destination="Scv-9p-Zqh" id="UMn-FN-9UL"/>
                     </connections>
                 </viewController>
