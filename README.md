@@ -13,7 +13,8 @@ After changing app language from App Settings, app will relaunch and it preserve
     3. _UIViewControllerRestoration_: ViewController should implement 'UIViewControllerRestoration' method.
     For all the deatils see 'ProfileSettingsVC' class.
 
-**Step By Step Guide**
+**Step By Step Guide For Developers**
+
 https://medium.com/p/281976d5a6af
 
 ## DemoVideo
